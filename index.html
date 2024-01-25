@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALMSURBVHgBrVQxTJNREL42TVulpgRiCwutiYWB2iYaqQzU0FAXYIOw1EFdZdFBFx100Vk2jYssxIHE2okEQrtojSbUOlAGWhf/lkAwQqQuet/9//v7KE108JKX9r/33nf3fXf3HIbx9Tf9R3N1cjabh7SxtUb13W3yurso2HuOYoPjsgcfDL5/AqxUi/Qm/4yavw6P+b8fNGRtVNbk2+8LUPLinB1ImUOnXPi0RHleXvdpGrs0R/HzKdpnkJV3L6n27YuciUXGyX8mQJ8rq7y3I6BjvE5kWOLIAAv2hGk2fV8uIUCx/JbSozcEsNt3lqavzsv5odAIZZkJ7gz0RynUPyx+p9D50ZANXNDB4POzL9hj6uX1dMnv65UnvJ7SdHKePKxxdr0lkQBu1oqiT4CFru9VhaLK9vrkYwkArYzdKn3gjFEQnM/mF2x9lbai4fPlu9Swqqeb0iZu6fZi+Q6z2SGI3l40UM5wcNcRbwAMdCdGb/HBA9rkSlc4a9CGIasZSMGVrXOWShqAQK7F3APRGEFcKtKFwZQIjT7z+4JC0ev2mdRYI1xSlrFkQL/iNxJOSNAj/j7RhxAbQTKTj0SrxZyZ5QBnE+JqotH1DsA5+JQ5PdYHUofNpu+JRgAuba0ylbL0HorTzZRhxXLW7leAqelBF7jgQHWhGQxZXeO+y64vyIIlreKUrHGE7tBRUYeufb1haSGnalIcKlmlj0VS3MC3zagWRWXtYLgDnS9Hp1p9OMIfQAcNRR2gyNzjaUmyzws0Z6zm1wci1BdtASIL0ESkV7mHNigO4j+W+HkfoyeNrfkw94rFsccB0QoybuZLYuxtSzsge1Q+feWmsFFzL2B8Lqk9Do72BxaVLXxckpdEN2SLRwBjCnBQn+AAce5f3RydXmzQqRlles/ZNbiCugW4mkOhBCWGp2x9/wqoG6bhpzVNp5h6JxDd/gCK/pUW/+FKpwAAAABJRU5ErkJggg==" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Food Boutique</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <link href="https://fonts.cdnfonts.com/css/pp-neue-montreal" rel="stylesheet">
+  <script type="module" crossorigin src="/Project-JavaScript/commonHelpers2.js"></script>
+  <link rel="modulepreload" crossorigin href="/Project-JavaScript/assets/vendor-5ef907e7.js">
+  <link rel="modulepreload" crossorigin href="/Project-JavaScript/assets/footer-e778ada2.js">
+  <link rel="stylesheet" href="/Project-JavaScript/assets/footer-ba83fc36.css">
+</head>
+
+<body>
+  <section class="header">
+  <div class="container container-header">
+    <div class="container-logo">
+      <a href="./index.html" class="logo-link">
+        <div class="header-logo-container">
+          <svg class="header-logo-icon">
+            <use
+              href="/Project-JavaScript/assets/icons-tank-eaaf4f7b.svg#icon-logo-food"
+              class="icon-one"
+            ></use>
+          </svg>
+        </div>
+        <span class="logo-text">Food Boutique</span>
+      </a>
+    </div>
+    <div class="container-nav">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item-home">
+            <a href="./index.html" class="nav-home">Home</a>
+          </li>
+          <li class="nav-item-cart">
+            <a href="./cart.html" class="nav-cart">
+              <svg class="nav-icon">
+                <use
+                  href="/Project-JavaScript/assets/icons-tank-eaaf4f7b.svg#icon-basket"
+                  class="icon-one"
+                ></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <p class="nav-item-span">
+          CART (<span id="number-of-products">0</span>)
+        </p>
+      </nav>
+    </div>
+  </div>
+</section>
+
+
+  <main>
+    <section class="hero">
+  <div class="container">
+    <div class="hero-container">
+      <h1 class="hero-title">Welcome to the <span>Food</span> Boutique!</h1>
+      <p class="hero-text">
+        With Food Boutique, you're not just subscribing to food, you're signing
+        up for a fresher, fitter, and happier you.
+      </p>
+      <div class="hero-img-container">
+        <svg class="hero-icon-organic-food">
+          <use href="/Project-JavaScript/assets/icons-tank-eaaf4f7b.svg#icon-organic-food"></use>
+        </svg>
+        <picture>
+          <source
+            srcset="/Project-JavaScript/assets/hero-image-desktop-1x-788744ef.jpg 1x, /Project-JavaScript/assets/hero-image-desktop-2x-612fe3f5.jpg 2x"
+            media="(min-width: 1440px)"
+          />
+          <source
+            srcset="/Project-JavaScript/assets/hero-image-tablet-1x-dc1b27f4.jpg 1x, /Project-JavaScript/assets/hero-image-tablet-2x-56e55d08.jpg 2x"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="/Project-JavaScript/assets/hero-image-mobile-1x-0ca7abda.jpg 1x, /Project-JavaScript/assets/hero-image-mobile-2x-a30edeee.jpg 2x"
+            media="(min-width: 150px)"
+          />
+          <img
+            src="/Project-JavaScript/assets/hero-image-desktop-1x-788744ef.jpg"
+            alt="delivery food image"
+            class="hero-img"
+            width="1240"
+          />
+        </picture>
+      </div>
+    </div>
+  </div>
+</section>
+    <section class="content-section">
+      <div class="container content-container">
+        <!-- <section class="filters">
+    <div class="container">
+        <div class="styleFilterPosition">
+            <h2 class="styleFilter">Filters:</h2>
+        </div>
+        <form class="search-form">
+            <div class="styleForm">
+                <div class="search-container">
+                    <input type="text" name="keyword" class="search-input" autocomplete="off"
+                        placeholder="Search for anything" />
+                    <button type="submit" class="search-button">
+                        <svg width="20" height="20">
+                            <use href="./img/kupi-tank-sprite.svg#icon-search"></use>
+                        </svg>
+                    </button>
+                </div>
+                <div class="category-container">
+                    <select name="category" id="categorySelect" class="categorySelect"></select>
+                    <button type="button" class="arrow-container">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M5 7.5L10 12.5L15 7.5" stroke="#010101" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</section> -->
+
+<div class="filters" id="filters">
+    <p class="filter-text">Filters:</p>
+    <div class="filter-container">
+        <form class="custom-input js-search-form">
+            <label for="search" class="visually-hidden">Search for anything</label>
+            <input id="search" class="search-input js-search-input" autocomplete="off" type="text" name="search"
+                placeholder="Search for anything" />
+            <button class="search-btn filter-btn" type="submit" aria-label="search">
+                <span>
+                    <svg width="20" height="20">
+                        <use href="/Project-JavaScript/assets/icons-tank-eaaf4f7b.svg#icon-baseline-search" />
+                    </svg>
+                </span>
+            </button>
+        </form>
+
+        <div class="custom-select custom-select-ctg" aria-haspopup="listbox">
+            <input type="text" class="selected-option selected-option-ctgr js-category" tabindex="-1"
+                placeholder="Categories" readonly disabled />
+            <button class="categories-btn filter-btn" type="button" aria-label="Category option">
+                <span>
+                    <!-- <svg width="20" height="20">
+                        <use href="./img/icons-tank.svg#icon-down-btn" />
+                    </svg> -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M5 7.5L10 12.5L15 7.5" stroke="#010101" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </span>
+            </button>
+            <div class="select-options select-opt js-ctg-select-options" tabindex="0">
+                <div class="text-options" tabindex="0">Show all</div>
+            </div>
+        </div>
+
+        <div class="custom-select custom-select-sort" aria-haspopup="listbox">
+            <input type="text" class="selected-option sort-select selected-option-sort" placeholder="A to Z"
+                tabindex="-1" readonly disabled />
+            <button class="sort-btn filter-btn" type="button" aria-label="Category option">
+                <span>
+                    <!-- <svg width="20" height="20">
+                        <use href="./img/icons-tank.svg#icon-down-btn" />
+                    </svg> -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M5 7.5L10 12.5L15 7.5" stroke="#010101" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </span>
+            </button>
+            <div class="select-options js-sort-select-options" tabindex="0"></div>
+        </div>
+    </div>
+</div>
+        <div class="content-wrapper">
+          <div class="products-wrapper">
+            <ul class="product-card-list" data-ls-name="product" id="products"></ul>
+            <div class="pagination">
+    <div class="btn-container">
+        <ul class="btn-list">
+
+        </ul>
+    </div>
+</div>
+          </div>
+          <div class="aside-wrappeer">
+    <section class="popular">
+        <h2 class="popular-caption">Popular products</h2>
+        <ul class="popular-list" data-ls-name="popular"></ul>
+    </section>
+
+    <section class="discount">
+        <h2 class="discount-caption">Discount products</h2>
+        <ul class="discount-list" data-ls-name="discount"></ul>
+    </section>
+</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer" class="footer">
+    <div class="container-footer container">
+        <div class="logo-text-form">
+            <div class="footer-logo">
+                <a class="footer-logo-link" href="HOME">
+                    <img src="data:image/png;base64,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" class="footer-logo-icon" width="154" height="28">
+                </a>
+                <div class="footer-social">
+                    <ul class="footer-social-icon">
+                        <li>
+                            <a class="footer-icon-link link" href="https://www.facebook.com/goITclub/">
+                                <svg class="footer-soclink-icon" width="24" height="24">
+                                    <use href="/Project-JavaScript/assets/icons-tank-eaaf4f7b.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="footer-icon-link link" href="https://www.instagram.com/goitclub/">
+                                <svg class="footer-soclink-icon" width="24" height="24">
+                                    <use href="/Project-JavaScript/assets/icons-tank-eaaf4f7b.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="footer-icon-link link" href="https://www.youtube.com/c/GoIT">
+                                <svg class="footer-soclink-icon" width="24" height="24">
+                                    <use href="/Project-JavaScript/assets/icons-tank-eaaf4f7b.svg#icon-youtube"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- <div class="text-form">
+                <div class="footer-text">
+                    <h2 class="footer-slogan">Discover the Variety of Flavors and Quality</h2>
+                    <p class="footer-slogan-text">An online store where you will find fresh, natural and delicious
+                        products for a healthy life and unforgettable gastronomic adventures.
+                    </p>
+                </div>
+                <div class="footer-form">
+                    <p class="footer-email-text">Subscribe and learn about new products!</p>
+                    <form name="E-mail" class="footer-email">
+                        <label for="mail" class="footer-label">
+                            <input type="email" name="email" id="mail" class="footer-input-email" placeholder="Email">
+                        </label>
+                        <button type="submit" class="button-footer">Send</button>
+                    </form>
+                </div>
+            </div> -->
+
+            <div class="discover-box">
+                <div class="footer-descr">
+                    <h2 class="footer-title">
+                        Discover the Variety of Flavors and Quality
+                    </h2>
+                    <p class="footer-text">
+                        An online store where you will find fresh, natural and delicious
+                        products for a healthy life and unforgettable gastronomic
+                        adventures.
+                    </p>
+                </div>
+                <div class="container-form">
+                    <p class="footer-form-par">Subscribe and learn about new products!</p>
+                    <form class="form-footer" name="email_address" autocomplete="off">
+                        <label class="label-subscribe">
+                            <input class="form-footer-input" type="email" name="footer-input-email" placeholder="Email"
+                                maxlength="200" pattern="^([^ ]+@[^ ]+\.[a-z]{2,6}|)$"
+                                title="Use the format: test@gmail.com"
+                                aria-label="Subscribe to our newsletter. Enter your email address here." required />
+                        </label>
+                        <button class="footer-form-button" type="submit" aria-label="Send">
+                            Send
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer-policy">
+            <p>Food Boutique. All rights reserved.</p>
+            <div class="footer-servise">
+                <p>Privacy Policy</p>
+                <p>/</p>
+                <p>Terms of Service</p>
+            </div>
+        </div>
+    </div>
+</footer>
+  <div class="modal-prod-wrapper"></div>
+
+  
+</body>
+
+</html>
