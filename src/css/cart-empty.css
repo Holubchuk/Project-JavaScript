@@ -12,16 +12,16 @@
     height: 114px;
 }
 
+.yelow-empty {
+    color: var(--green-color);
+}
+
 .empty-cart-text {
     color: var(--black-color);
     font-size: 18px;
     line-height: 1.11;
     margin-bottom: 14px;
     text-align: center;
-}
-
-.yelow-empty {
-    color: var(--green-color);
 }
 
 .empty-cart-paragraf {
